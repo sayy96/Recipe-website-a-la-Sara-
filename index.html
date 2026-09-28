@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Recipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>My Recipes</h1>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label for="course-select">By Course</label>
+        <select id="course-select">
+          <option value="all">All</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="ingredient-select">By Ingredient</label>
+        <select id="ingredient-select">
+          <option value="all">All</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="cuisine-select">By Cuisine</label>
+        <select id="cuisine-select">
+          <option value="all">All</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main id="card-grid" class="card-grid">
+    <!-- Cards get added here automatically by script.js -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
