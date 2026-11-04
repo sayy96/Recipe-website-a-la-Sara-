@@ -856,15 +856,71 @@ const recipes = [
       "Working in handfuls, squeeze the grated cucumber over the sink to remove excess moisture, then transfer to a serving bowl.",
       "Add the yogurt, olive oil, herbs, lemon juice, garlic, and salt, stirring to combine. Let rest 5 minutes so the flavors meld, then taste and adjust.",
       "Serve right away or chill for later, it keeps well in the fridge for about 4 days.",
-      "Goes especially well alongside the Taboulé above."
     ]
-  }
+  },
+  {
+  id: "black-pepper-tofu",
+  title: "Black Pepper Tofu",
+  image: "images/black-pepper-tofu.jpg",
+  course: "Mains",
+  ingredients: ["Tofu", "Black Pepper", "Shallot"],
+  cuisine: "Asian-inspired",
+  ingredientGroups: [
+    {
+      heading:"",
+      items : [
+        "800g firm tofu, cut into large cubes",
+        "Vegetable oil, for frying",
+        "Cornflour, for coating",
+        "Spring onions, sliced, to finish"
+      ]
+    },
+    {
+      heading:"The Sauce",
+      items:[
+        "150g butter",
+        "12 shallots, thinly sliced",
+        "8 mild red chilies",
+        "12 garlic cloves",
+        "3 tbsp fresh ginger",
+        "3 tbsp sweet soy sauce (kecap manis)",
+        "3 tbsp light soy sauce",
+        "4 tsp dark soy sauce",
+        "2 tbsp caster sugar",
+        "5 tbsp black peppercorns, coarsely crushed (or normal pepper)",
+      ]
+    },
+    {
+      heading:"Veggie Additions",
+      items: [
+        "1 or 2 Bell Pepper chopped into small cubes, add near end",
+        "Broccoli/Brocolini cook seperatly or add at begining of making the sauce",
+        "Spinach toss on top after done, it will wilt",
+        "Cauliflower Rice"
+      ]
+    }
+  ],
+  notes: [
+    "you dont have to use 3 different soys, you can use just one but the 3 are better",
+    "you can mix seasoning into the cornflower if you want when you coat the tofu, I was doing a little giner and garlic but not a ton its already flavorful",
+    "the second day the tofu isnt crispy like the first but it is still good",
+    "If you want you can put ginger, garlic and chilis in any kind of blender, it doesnt need to be a liquid just chopped up. You can even add shallots and chop nothing",
+    "Usually, I also add in bell pepper chopped into small cubes, and or broccoli/broccolini on the side and/or spinach"
+  ],
+  steps: [
+    "Toss the tofu cubes in cornflour, shaking off the excess.",
+    "Heat enough oil in a wok or large frying pan to come about 5mm up the sides. Fry the tofu in batches until golden with a light crust, then drain on paper towels.",
+    "Wipe out the pan, melt the butter, and add the shallots (thinly sliced), chilies ( chopped finely), garlic ( chopped finely), and ginger (chopped finely). Cook on low-medium heat for about 15 minutes, stirring occasionally, until soft and glossy.",
+    "Stir in all three soy sauces, the sugar, and the crushed black pepper.",
+    "Return the tofu to the pan and toss to coat, warming through for about a minute.",
+    "Stir in the spring onions and serve hot over steamed rice."
+  ]
+}
   
 ];
 
 // ============================================================
-// EVERYTHING BELOW THIS LINE RUNS AUTOMATICALLY.
-// You shouldn't need to edit it just to add recipes.
+// EVERYTHING BELOW THIS LINE RUNS THE PAGE.
 // ============================================================
  
 const isHomePage = document.getElementById("card-grid") !== null;
