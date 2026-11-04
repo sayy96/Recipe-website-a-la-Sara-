@@ -951,7 +951,7 @@ const recipes = [
 {
   id: "green-sauce",
   title: "Green Sauce",
-  image: "images/green_sauce2.jpg",
+  image: "images/green_sauce.jpg",
   course: "Sauce",
   ingredients: ["Spinach", "Tahini"],
   cuisine: "Italian-inspired",
