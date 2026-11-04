@@ -867,7 +867,7 @@ const recipes = [
   cuisine: "Asian-inspired",
   ingredientGroups: [
     {
-      heading:"",
+      heading:"Crispy Tofu",
       items : [
         "800g firm tofu, cut into large cubes",
         "Vegetable oil, for frying",
@@ -915,7 +915,62 @@ const recipes = [
     "Return the tofu to the pan and toss to coat, warming through for about a minute.",
     "Stir in the spring onions and serve hot over steamed rice."
   ]
-}
+},
+{
+  id: "red-enchilada-sauce",
+  title: "Red Enchilada Sauce",
+  image: "images/red-enchilada-sauce.jpg",
+  course: "Sides",
+  ingredients: ["Tomato Paste", "Chili Powder"],
+  cuisine: "Mexican-inspired",
+  ingredientsList: [
+    "3 tbsp olive oil",
+    "3 tbsp flour",
+    "1 tbsp chili powder",
+    "1 tsp ground cumin",
+    "1/2 tsp garlic powder",
+    "1/4 tsp dried oregano",
+    "Pinch of cinnamon (optional)",
+    "1/4 tsp salt",
+    "2 tbsp tomato paste",
+    "2 cups vegetable broth",
+    "1 tsp apple cider vinegar or white vinegar",
+    "Black pepper, to taste"
+  ],
+  notes: [
+    "Freezes well, worth doubling the batch and freezing half for next time."
+  ],
+  steps: [
+    "Measure the flour, chili powder, cumin, garlic powder, oregano, cinnamon, and salt into a small bowl and keep it near the stove.",
+    "Heat the olive oil in a saucepan over medium heat, then whisk in the dry spice mixture to form a paste (a roux), cooking briefly until fragrant.",
+    "Whisk in the tomato paste, then gradually pour in the vegetable broth, whisking constantly to avoid lumps.",
+    "Bring to a gentle simmer and cook, whisking often, for about 5 to 7 minutes, until the sauce thickens slightly and coats the whisk.",
+    "Remove from heat, whisk in the vinegar, and season generously with black pepper. The sauce will continue to thicken slightly as it cools."
+  ]
+},
+{
+  id: "green-sauce",
+  title: "Green Sauce",
+  image: "images/green_sauce2.jpg",
+  course: "Sauce",
+  ingredients: ["Spinach", "Tahini"],
+  cuisine: "Italian-inspired",
+  ingredientsList: [
+    "capers",
+    "spinach",
+    "Tahini",
+    "Lemon Juice",
+    "Garlic",
+    "Olive Oil",
+    ],
+  notes: [
+    "Freezes well, worth doubling the batch and freezing half for next time."
+  ],
+  steps: [
+    "Put everything in a blender and blend until smooth. Add water to thin if needed."
+  ]
+},
+
   
 ];
 
