@@ -278,7 +278,7 @@ const recipes = [
     id: "mutabal-aubergine-dip",
     title: "Mutabal (Smoky Aubergine Dip)",
     image: "images/mutabal.jpg",
-    course: "Sides",
+    course: ["Sides", "Sauce"],
     ingredients: ["Aubergine", "Tahini"],
     cuisine: "Middle Eastern",
     ingredientsList: [
@@ -343,7 +343,7 @@ const recipes = [
     id: "classic-hummus",
     title: "Classic Hummus",
     image: "images/hummus.jpg",
-    course: "Sides",
+    course: ["Sides", "Sauce"],
     ingredients: ["Chickpeas", "Tahini"],
     cuisine: "Middle Eastern",
     ingredientsList: [
@@ -431,7 +431,7 @@ const recipes = [
     id: "stuffed-aubergine-coconut-dal",
     title: "Stuffed Aubergine in Coconut Curry Dal",
     image: "images/stuffed-aubergine-dal.jpg",
-    course: "Mains",
+    course: ["Mains","Sauce"],
     ingredients: ["Aubergine", "Paneer", "Lentils"],
     cuisine: "Indian-inspired",
     ingredientGroups: [
@@ -593,7 +593,7 @@ const recipes = [
     id: "fresh-spring-rolls-peanut-sauce",
     title: "Fresh Spring Rolls with Peanut Sauce",
     image: "images/spring-rolls.jpg",
-    course: "Mains",
+    course: ["Mains", "Sauce"],
     ingredients: ["Shrimp", "Veggies", "Rice Noodles", "Rice Paper"],
     cuisine: "Vietnamese-inspired",
     ingredientGroups: [
@@ -642,7 +642,7 @@ const recipes = [
     id: "smoky-aubergine-pasta",
     title: "Smoky Aubergine Pasta with Tahini",
     image: "images/aubergine-pasta.jpg",
-    course: "Mains",
+    course: ["Mains", "Sauce"],
     ingredients: ["Aubergine", "Tahini", "Pasta"],
     cuisine: "Italian-inspired",
     ingredientsList: [
@@ -862,7 +862,7 @@ const recipes = [
   id: "black-pepper-tofu",
   title: "Black Pepper Tofu",
   image: "images/black-pepper-tofu.jpg",
-  course: "Mains",
+  course: ["Mains", "Sauce"],
   ingredients: ["Tofu", "Black Pepper", "Shallot"],
   cuisine: "Asian-inspired",
   ingredientGroups: [
@@ -920,7 +920,7 @@ const recipes = [
   id: "red-enchilada-sauce",
   title: "Red Enchilada Sauce",
   image: "images/red-enchilada-sauce.jpg",
-  course: "Sides",
+  course: "Sauce",
   ingredients: ["Tomato Paste", "Chili Powder"],
   cuisine: "Mexican-inspired",
   ingredientsList: [
