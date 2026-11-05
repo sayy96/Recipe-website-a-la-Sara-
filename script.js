@@ -1017,7 +1017,7 @@ if (isRecipePage) {
 }
  
 function setupHomePage() {
-  populateDropdown("course-select", getUniqueValues(recipes.map(r => r.course)));
+  populateDropdown("course-select", getUniqueValues(recipes.flatMap(r => getCourses(r))));
   populateDropdown("ingredient-select", getUniqueValues(recipes.flatMap(r => r.ingredients)));
   populateDropdown("cuisine-select", getUniqueValues(recipes.map(r => r.cuisine)));
  
@@ -1027,7 +1027,9 @@ function setupHomePage() {
  
   renderCards();
 }
- 
+ function getCourses(recipe) {
+  return Array.isArray(recipe.course) ? recipe.course : [recipe.course];
+}
 function getUniqueValues(list) {
   return [...new Set(list)].sort();
 }
@@ -1048,7 +1050,7 @@ function renderCards() {
   const cuisineFilter = document.getElementById("cuisine-select").value;
  
   const filtered = recipes.filter(recipe => {
-    const matchesCourse = courseFilter === "all" || recipe.course === courseFilter;
+    const matchesCourse = courseFilter === "all" || getCourses(recipe).includes(courseFilter);
     const matchesIngredient = ingredientFilter === "all" || recipe.ingredients.includes(ingredientFilter);
     const matchesCuisine = cuisineFilter === "all" || recipe.cuisine === cuisineFilter;
     return matchesCourse && matchesIngredient && matchesCuisine;
@@ -1090,7 +1092,7 @@ function setupRecipePage() {
   document.getElementById("recipe-image").alt = recipe.title;
   document.getElementById("recipe-image").onerror = function() { this.style.display = "none"; };
   document.getElementById("recipe-tags").textContent =
-    `${recipe.course} · ${recipe.cuisine} · ${recipe.ingredients.join(", ")}`;
+    `${getCourses(recipe).join(", ")} · ${recipe.cuisine} · ${recipe.ingredients.join(", ")}`;
  
   const ingredientsEl = document.getElementById("recipe-ingredients");
   if (recipe.ingredientGroups) {
