@@ -954,10 +954,10 @@ const recipes = [
   image: "images/green_sauce.jpg",
   course: "Sauce",
   ingredients: ["Spinach", "Tahini"],
-  cuisine: "Italian-inspired",
+  cuisine: "Jackie Specials",
   ingredientsList: [
-    "capers",
-    "spinach",
+    "Capers",
+    "Spinach",
     "Tahini",
     "Lemon Juice",
     "Garlic",
@@ -970,9 +970,36 @@ const recipes = [
     "Put everything in a blender and blend until smooth. Add water to thin if needed."
   ]
 },
+{
+    id: "Poffertje",
+    title: "Poffertjes",
+    image: "images/pooferje.jpg",
+    course: "Breakfast",
+    ingredients: ["Yeast"],
+    cuisine: "Dutch",
+    ingredientsList: [
+      "3 dl Milk",
+      "2 Eggs",
+      "5g salted butter, more for cooking",
+      "250 g flower",
+      "10g fresh yeast or 5 g dry yeast",
+    ],
+    notes: [
+      "If you dont have European yeast you need warm water and sugar to activate the yeast first",
+      "If you dont have a poffertje pan you can use a cake pop maker or a mini muffin pan but they will be less fluffy",
+      "To make life easy if the batter is in a sauce dispenser you can easily dispence it",
 
+    ],
+    steps: [
+      "Make a smooth batter with all the ingredients, if using US yeast make sure to prepare it prior to making the batter.",
+      "Let the batter rest for anout 1 hour.",
+      "Heat a poffertje pan and brush/slather with butter. ",
+      "Pour a small amount of batter into each hole and cook until bubbles form on the surface, then flip and cook until golden brown.",
+      "Serve warm with powdered sugar and butter, or your favorite toppings."
+    ]
+  },
   
-];
+]
 
 // ============================================================
 // EVERYTHING BELOW THIS LINE RUNS THE PAGE.
