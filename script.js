@@ -998,6 +998,53 @@ const recipes = [
       "Serve warm with powdered sugar and butter, or your favorite toppings."
     ]
   },
+  {
+    id: "golumpki",
+    title: "Golumpki (Polish Stuffed Cabbage)",
+    image: "images/golumpki.jpg",
+    course: "Mains",
+    ingredients: ["Cabbage", "Ground Beef", "Rice"],
+    cuisine: "Polish",
+    ingredientGroups: [
+      {
+        heading: "Cabbage Rolls",
+        items: [
+          "1 large head green cabbage",
+          "Salt, for the boiling water"
+          "1 lb ground beef (or any ground meat/tofu)",
+          "3/4 cup cooked rice ( or Barley)",
+          "1 onion, finely chopped",
+          "2 garlic cloves, minced",
+          "1 tsp salt",
+          "1/2 tsp black pepper"
+        ]
+      },
+      {
+        heading: "Sauce",
+        items: [
+          "4 TBS tomato paste",
+          "1 can (about 14 oz) diced tomatoes",
+          "1 tbsp vinegar or lemon juice",
+          "1 tbsp sugar"
+        ]
+      }
+    ],
+    notes: [
+      "I did a mix of ground pork and ground turkey but anythgin can be used even tofu and mushrooms",
+      "In the meat mixture, Mushrooms, carrots, extra cabbage can be added to the meat mixutre, same goes with other seasonings like paprika and coriander",
+      "the meat mixture can also have eggand breadcrums like a meatball but not needed",
+      "For the sauce I add carrots and red onions and let it cook a bit before blending it, tbh any red sauce you like works ",
+      " You want the sauce to be a bit liquidy since it will evaporate a little bit in the oven but not excessivly"
+    ],
+    steps: [
+      "Core the cabbage and boil the whole head in salted water for a few minutes, until the outer leaves loosen. Peel off the leaves as they soften and set them aside to cool. (sometimes do a few rounds of leaf removal)",
+      "Mix the filling ingredients together until combined.",
+      "Place a few spoonfuls of filling on each leaf, fold in the sides, and roll up tightly.",
+      "Stir the sauce ingredients together. Spread a little sauce in a baking dish, then lay the rolls in seam-side down.",
+      "Pour the remaining sauce over the top, cover with foil, and bake at 350°F for about 1 hour 15 minutes, until the cabbage is tender and the filling is cooked through.",
+      "Rest 10 to 15 minutes before serving."
+    ]
+  },
   
 ]
 
