@@ -1010,7 +1010,7 @@ const recipes = [
         heading: "Cabbage Rolls",
         items: [
           "1 large head green cabbage",
-          "Salt, for the boiling water"
+          "Salt, for the boiling water",
           "1 lb ground beef (or any ground meat/tofu)",
           "3/4 cup cooked rice ( or Barley)",
           "1 onion, finely chopped",
