@@ -1045,7 +1045,39 @@ const recipes = [
       "Rest 10 to 15 minutes before serving."
     ]
   },
-  
+  {
+    id: "boterkoek",
+    title: "Boterkoek (Dutch Butter Cake)",
+    image: "images/boterkoek.jpg",
+    course: "Dessert",
+    ingredients: ["Butter", "Flour", "Sugar"],
+    cuisine: "Dutch",
+    ingredientGroups: [
+      {
+        heading: "Cake",
+        items: [
+          "1 cup butter, softened",
+          "1 1/2 cups white sugar",
+          "2 large eggs",
+          "1 tbsp almond extract",
+          "2 1/2 cups all-purpose flour",
+          "2 tsp baking powder"
+        ]
+      },
+    ],
+    notes: [
+      "The dough is stiff, closer to a cookie dough than cake batter, so it gets pressed into the pan rather than poured."
+    ],
+    steps: [
+      "Heat the oven to 350°F and grease an 8-inch pans.",
+      "Cream the butter and sugar together until light and fluffy.",
+      "Mix in the eggs and almond extract.",
+      "Stir the baking powder into the flour, then work it into the butter mixture until a stiff dough forms.",
+      "Press the dough evenly into the pans and scatter the sliced almonds over the top.",
+      "Bake until golden 30 ish min, then cool before slicing into small pieces."
+    ]
+  },
+
 ]
 
 // ============================================================
